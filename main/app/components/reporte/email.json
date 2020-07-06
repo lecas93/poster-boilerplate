@@ -1,0 +1,7 @@
+{
+    "user": "email",
+    "pass": "contraseña email",
+    "to": "email destinatario",
+    "from": "email",
+    "me": "email"
+}

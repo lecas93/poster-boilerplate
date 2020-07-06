@@ -1,0 +1,33 @@
+.btns {
+    margin-right: 20px;
+}
+
+#btn-coti-regresar {
+    float: right;
+}
+
+#coti-div-fechas {
+    display: inline-flex;
+}
+
+.coti-condicion {
+    margin-bottom: 10px;
+}
+
+.scrollable-coti {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 685px;
+}
+
+.scrollable-coti-prods {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 400px;
+}
+
+.scrollable-coti-drag {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 400px;
+}

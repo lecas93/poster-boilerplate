@@ -1,0 +1,7 @@
+#headerPM {
+    display: inline-flex;
+}
+
+#headerPM > p {
+    margin-right: 10px;
+}

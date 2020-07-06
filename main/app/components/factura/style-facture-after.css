@@ -1,0 +1,129 @@
+.scrollable-facture{
+    overflow: auto;
+    height: 500px;
+}
+
+.sub-wrapper-facture{
+    font-size: 25px;
+    margin: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.sub-wrapper-facture input, select{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sub-wrapper-facture > select {
+    margin-left: 10px;
+}
+
+#rfc-no-loaded{
+    text-align: center;
+}
+
+#rfc-no-loaded button{
+    font-size: 25px;
+}
+
+.loader-facture {
+    position: absolute;
+    left: 325px;
+    top: 150px;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+  /* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+#logo{
+    width: auto;
+    height: auto;
+}
+
+.alta-rfc{
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    clear: both;
+}
+
+.alta-rfc input{
+    width: 100%;
+    clear: both;
+}
+
+.fix-margin{
+    margin-top: 3%;
+}
+
+#btnAltaRFC{
+    margin-top: 6%;
+}
+
+.alta-wrapper-btn button, .checkbox{
+    display: inline-block;
+}
+
+.checkbox, #btnNuevoRFC{
+    float: right;
+}
+
+#txtAddress, #txtEmail{
+    width: 500px;
+}
+
+#txtName{
+    width: 250px;
+}
+
+#txtTelefono{
+    width: 200px;
+}
+
+#inputTicket {
+    width: 200px;
+}
+
+#btn-fact-agregar {
+    margin-right: 5px;
+}
+
+#inputTickets {
+    width: 350px;
+    font-size: 16pt;
+}
+
+/* CSS TICKETS */
+.post-tag {
+    font-size: 22px;
+    color: #2396e9;
+    background-color: #e1ecf4;
+    border-color: #e1ecf4;
+    display: inline-block;
+    padding: .4em .5em;
+    margin: 2px 2px 2px 0;
+    line-height: 1;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    cursor: pointer;
+}

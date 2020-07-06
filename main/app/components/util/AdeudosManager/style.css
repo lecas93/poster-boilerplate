@@ -1,0 +1,22 @@
+.scrollable-adeudos{
+    overflow: auto;
+    height: 350px;
+}
+
+#selectStatus {
+    display: inline-block;
+    width: auto;
+    margin-left: 10px;
+}
+
+#btn-pagos-back {
+    float: right;
+}
+
+#div-datos-adeudos > h4 {
+    display: inline;
+}
+
+.adeudo-h4 {
+    margin-right: 10px;
+}

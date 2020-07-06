@@ -1,0 +1,38 @@
+.scrollable-client{
+    overflow: auto;
+    height: 550px;
+}
+
+.sub-wrapper-client{
+    font-size: 25px;
+    margin: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.sub-wrapper-client input{
+    width: 300px;
+    margin-left: 10px;
+}
+
+.sub-wrapper-client > select {
+    margin-left: 10px;
+}
+
+.client_comment{
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.client_comment p{
+    margin-top: 10px;
+}
+
+.client_comment textarea{
+    width: 300px;
+}
+
+#address{
+    width: 500px;
+}

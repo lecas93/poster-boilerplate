@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style type="text/css">
+        @page {
+            size: auto;
+            margin: 3mm;
+        }
+
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+            }
+        }
+
+        #table-productos,
+        #table-productos th,
+        #table-productos td,
+        #table-pago-sucursales,
+        #table-pago-sucursales th,
+        #table-pago-sucursales td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        #table-productos thead {
+            background-color: black;
+            color: white;
+        }
+
+        ol {
+            list-style-type: lower-alpha;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        .no-border {
+            border-top: none !important;
+            border-bottom: none !important;
+        }
+
+        .no-border-top {
+            border-top: none !important;
+        }
+
+        .no-border-bottom {
+            border-bottom: none !important;
+        }
+
+        .top-text {
+            vertical-align: top;
+        }
+
+        .right-text {
+            text-align: right;
+        }
+
+        .td-space {
+            width: 15px;
+        }
+
+        .td-v-space {
+            height: 50px;
+        }
+
+        .th-gray {
+            background-color: gray;
+        }
+
+        .td-gray {
+            background-color: gray;
+        }
+
+        .etiqueta {
+            height: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td><img id="img-logo" src="#img#"></td>
+            <td class="right-text" style="font-size: 26pt"><b>COTIZACIÓN</b></td>
+        </tr>
+        <tr>
+            <td><b>
+                    <p id="p-sucursal" style="font-size: 16pt">Sucursal #sucursal#</p>
+                </b></td>
+            <td class="right-text">
+                <b>
+                    <p id="p-fecha">#fecha#</p>
+                    <p id="p-folio">Folio: #folio#</p>
+                </b>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p>Atendiendo su amable solicitud, me permito poner a su disposición la siguiente cotización:</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table id="table-productos">
+                    <thead>
+                        <th>CANTIDAD</th>
+                        <th>DESCRIPCIÓN</th>
+                        <th>PRECIO UNITARIO</th>
+                        <th>PRECIO TOTAL</th>
+                    </thead>
+                    <tbody id="tbody-productos">
+                        #tbody#
+                        <!--
+                        <tr>
+                            <td>1</td>
+                            <td class="td-gray">Producto</td>
+                            <td class="td-gray">$100</td>
+                            <td class="td-gray">$100</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td>TOTAL</td>
+                            <td>$100</td>
+                        </tr>
+                        -->
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="td-v-space" colspan="2">
+                <!-- Espacio en blanco -->
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Propuesta válida #dias# días a partir de la fecha presente.
+                <ol>
+                    #condiciones#
+                    <!--
+                    <li>Precios sujetos a cambio sin previo aviso.</li>
+                    <li>Los precios incluyen IVA.</li>
+                    <li>50% Anticipo 50% Entrega.</li>
+                    -->
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td class="center-text" colspan="2">Sin más por el momento, quedo a la espera de su respuesta.</td>
+        </tr>
+        <tr>
+            <td class="center-text" colspan="2">
+                <p id="p-asesor">#asesor#</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="td-v-space" colspan="2">
+                <!-- Espacio en blanco -->
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table id="table-pago-sucursales">
+                    <tr>
+                        <th class="th-gray">OPCIONES DE PAGO</th>
+                        <th class="th-gray">SUCURSALES PARA ENTREGA DE TRABAJOS</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><b>Banorte</b><br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, reiciendis! Id quaerat, aspernatur harum tempore laborum laboriosam aliquam ipsum enim optio officia voluptatem, repellat sequi. Ullam adipisci perspiciatis odio earum?
+                            </p>
+                            <p><b>Santander</b><br>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptas nulla praesentium illum minus itaque dolores dolore perferendis, facilis sequi veniam quisquam ipsa sint mollitia ducimus placeat accusamus voluptates dicta.
+                            </p>
+                            <p><b>PAGO EN OXXO, SEVEN ELEVEN, ETC.</b><br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam amet laudantium cum voluptatem natus omnis blanditiis dolor! Eligendi ratione atque modi nihil reprehenderit, voluptates, unde saepe quisquam vitae nemo velit?
+                            </p>
+                        </td>
+                        <td>
+                            <p><b>Sucursal Terranorte</b><br>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex laudantium culpa laborum enim libero earum architecto qui, iste, quis fuga, ipsa rerum necessitatibus rem! Consectetur vitae vel sequi similique fugit?
+                            </p>
+                            <p><b>Sucursal Caucel</b><br>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam itaque odio porro nesciunt maxime aspernatur tenetur accusantium illum cupiditate culpa enim impedit eaque at expedita, animi sunt consectetur magnam cumque.
+                            </p>
+                            <p><b>Oficina central (únicamente entrega de productos)</b><br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, sequi! Quasi autem vero provident saepe magni aspernatur veritatis odit praesentium dicta unde deleniti iure, dolor commodi necessitatibus, nobis ut itaque.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="td-v-space" colspan="2">
+                <!-- Espacio en blanco -->
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table>
+                    <tr>
+                        <td>Empresa S.A de C.V.</td>
+                        <td class="td-space"></td>
+                        <td>RFC: rfc</td>
+                        <td class="td-space"></td>
+                        <td>Correo: email</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="right-text" colspan="2">F-RET-02</td>
+        </tr>
+    </table>
+</body>
+
+</html>

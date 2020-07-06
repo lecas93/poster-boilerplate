@@ -1,0 +1,40 @@
+.ticket-container {
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 500px;
+    width: 100%;
+}
+
+#div_ticket_productos {
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 275px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.panel {
+    cursor: pointer;
+}
+
+.p-cliente {
+    float: left;
+}
+
+.p-total {
+    float: right;
+}
+
+.ticket-info {
+    font-size: 20px;
+}
+
+#ticket_btn {
+    margin-top: -20px;
+}
+
+#loader_ticket_btn {
+    margin-top: -25px;
+}

@@ -1,0 +1,44 @@
+.texto {
+    font-size: 20px;
+}
+
+#lonas_title {
+    margin-top: -10px;
+}
+
+#divCategories {
+    display: inline-flex;
+}
+
+#divCategories > select {
+    margin-right: 15px;
+}
+
+.modificadores {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#botonesLonas {
+    margin-top: 10px;
+    float: right;
+}
+
+#btnSalirLona, #btnDeleteProduct {
+    margin-left: 10px;
+}
+
+#selectCategories {
+    margin-left: 10px;
+}
+
+.scrollable-lonas {
+    margin-top: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 300px;
+}
+
+#inputArchivo {
+    width: 215%;
+}

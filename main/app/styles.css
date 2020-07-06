@@ -1,0 +1,26 @@
+.test1 h1 {
+    font-size: 100px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.test1 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.test1 button {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.test2{
+    display: grid;
+}
+
+.test2 button{
+    font-size: 20px;
+    text-align: center;
+}

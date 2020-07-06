@@ -1,0 +1,9 @@
+#viewOpciones > button {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+hr {
+    border-width: 5px 0;
+    border-color: rgb(83, 159, 247);
+}

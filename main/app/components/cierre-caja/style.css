@@ -1,0 +1,16 @@
+#cierre-header > h3 {
+    margin-right: 5px;
+    display: inline;
+}
+
+#cierre-botones > button {
+    float: right;
+}
+
+#cierre-errores {
+    margin-top: 10px;
+}
+
+#pos-videos-tutos {
+    margin-top: -75px;
+}

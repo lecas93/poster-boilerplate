@@ -1,0 +1,10 @@
+.contenedor_ant {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#selectAnticipos {
+    display: inline-block;
+    width: auto;
+    margin-left: 10px;
+}

@@ -1,0 +1,9 @@
+#vtnPlantillas {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+}
+
+.anchorPlantilla {
+    margin-bottom: 10px;
+}

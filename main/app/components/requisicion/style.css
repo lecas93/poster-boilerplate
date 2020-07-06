@@ -1,0 +1,120 @@
+.scrollable-requisicion{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 300px;
+}
+
+.scrollable-history{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 400px;
+}
+
+img.emojione {
+    margin: 0px !important;
+    display: inline !important;
+}
+
+#headRequisicion {
+    margin-top: -15px;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid #cdcdcd;
+}
+table th, table td{
+    padding: 10px;
+    text-align: left;
+}
+
+.inputCant {
+    width: 90px;
+}
+
+#observaciones {
+    margin-left: 5px;
+}
+
+#btnEnviar {
+    margin-top: 7px;
+    float: right;
+}
+
+#btnVaciarTabla {
+    margin-left: 10px;
+}
+
+#selectIngredients {
+    width: 500px;
+}
+
+#div-req-btns > button {
+    margin-right: 10px;
+}
+
+#return {
+    font-size: 40px
+}
+
+/* Scroll bar*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  /*Barras de colores Start*/
+ul {
+    margin: 5px;
+}
+.input-color {
+    position: relative;
+}
+.input-color input {
+    padding-left: 20px;
+    outline: none;
+    border: 0;
+}
+.input-color .color-box {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #ccc;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+#redBox {
+    background-color: #FF1515;
+}
+#orangeBox {
+    background-color: #FF8000;
+}
+#yellowBox {
+    background-color: #FFE20A;
+}
+#greenBox {
+    background-color: #2D882D;
+}
+/*Barras de colores End*/

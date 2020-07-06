@@ -1,0 +1,24 @@
+.report button, input, select{
+    display: block;
+    margin: 0 auto;
+}
+
+#report_type{
+    margin: 0 auto;
+}
+
+.report h1{
+    text-align: center;
+}
+
+#btnReporte, #btn-registro-merma {
+    margin-bottom: 10px;
+}
+
+#myloader {
+    margin-top: -10px;
+}
+
+#btn-reporte-regresar {
+    margin-right: 10px;
+}

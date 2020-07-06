@@ -1,0 +1,19 @@
+#viewBtnFunctions {
+    position: relative;
+}
+
+.btns {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#versionWell {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.btn-func {
+    margin-right: 15px;
+}

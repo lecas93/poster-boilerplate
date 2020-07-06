@@ -1,0 +1,254 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+.radio > label {
+    font-size: 18px;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+#divCalculator {
+    margin-left: 15%;
+}
+
+@media screen and (max-width: 1366px){
+    #divCalculator {
+        margin-left: 10px;
+    }
+}
+
+#divPaymentOptions {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.btn-pi {
+    margin: 5px 5px;
+    padding: 35px 45px;
+    font-size: 20px;
+}
+
+.btn-esp {
+    padding: 35px 34px;
+}
+
+#btn-dot {
+    padding: 28px 45px;
+    font-size: 30px;
+}
+
+#btn-backspace {
+    padding: 35px 38px;
+}
+
+#btn-zero {
+    padding: 35px 46px;
+}
+
+#imgBackspace {
+    height: 30px;
+    width: 30px;
+}
+
+.row-pi {
+    margin-bottom: 15px;
+}
+
+.div-pi-switch {
+    display: inline-flex;
+}
+
+#div-late-prod {
+    margin-right: 10px;
+}
+
+.switch {
+    margin-left: 15px;
+}
+
+.p-pi-switch {
+    font-size: 18px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group-addon {
+    background-color: white;
+}
+
+.input-pi {
+    direction: initial;
+}
+
+input[type="number"] {
+    font-size: 25px;
+}
+
+#pi-input-cash {
+    font-size: 25px;
+}
+
+.btn-tipo-pagos > button {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+#btn-pi-facturar {
+    margin-top: -5px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+#btn-pi-pagar, #btn-pi-cerrar {
+    padding: 15px 35px;
+    font-size: 30px;
+    float: right;
+}
+
+#btn-pi-pagar {
+    position: relative;
+    top: -140px;
+}
+
+#btn-pi-cancelar {
+    position: relative;
+    bottom: 28px;
+    float: right;
+}
+
+#a-pi-cerrar {
+    position: relative;
+    top: 0px;
+}
+
+#div-pi-alert {
+    margin-bottom: -30px;
+}
+
+#label-pi-produccion {
+    margin-right: 10px;
+}
+
+#div-pi-totales {
+    display: inline-flex;
+}
+
+#div-pi-totales > h3 {
+    margin-right: 10px;
+}
+
+#p-pi-change {
+    display: inline;
+}
+
+#div-pi-cerrar {
+    margin-top: -25px;
+}
+
+#pi-div-logo {
+    margin-top: -50px;
+}
+
+#pi-img-logo {
+    margin-left: 40%
+}
+
+#pi-comentarios {
+    height: 75px;
+    width: 600px;
+}
+
+#pi-input-archivos {
+    width: 400px;
+}
+
+#p-pi-tiempo-entrega {
+    color: crimson;
+}
+
+/*#region CSS MODAL FACTURA */
+
+.swal2-header {
+    margin-top: -2%;
+}
+
+#inner_alta_rfc {
+    margin-top: -60px;
+}
+
+/*#endregion */
+
+/*#region CSS SWITCH */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #2196F3;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/*#endregion */
