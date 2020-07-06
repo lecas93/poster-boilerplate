@@ -4,7 +4,7 @@ POS Platform Boilerplate es una [plantilla](https://github.com/joinposter/pos-pl
 
 Una aplicación en la plataforma POS se ejecuta en Javascript. Podemos desarrollar la aplicación en cualquier lenguaje que compile en JS (CoffeeScript, TypeScript). La aplicación se carga en el sistema en forma de un solo archivo JS (paquete) que se recopila mediante [webpack](https://webpack.js.org/).
 
-## ¿Qué módulos desarrollé en mi aplicación?
+## ¿Qué módulos se desarrollaron en esta aplicación?
 * [Interfaz de pago personalizada](https://github.com/lecas93/poster-boilerplate/tree/master/main/app/components/payment-interface)
     * Manejo de distintos tipos de pagos (efectivo, tarjeta, transferencia, etc)
     * Almacenamiento de comprobantes de pago en servidor
@@ -30,7 +30,7 @@ Una aplicación en la plataforma POS se ejecuta en Javascript. Podemos desarroll
 * Seguridad
     * Restricción de acceso a ciertas funcionalidades según el rol.
 
-Por mencionar algunos de los más importantes
+Solo por mencionar algunos de los más importantes
 
 ## ¿Cómo utilizar?
 
