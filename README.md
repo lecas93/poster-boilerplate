@@ -1,6 +1,6 @@
 # Poster POS Platform Boilerplate
 
-POS Platform Boilerplate es una [plantilla](https://github.com/joinposter/pos-platform-boilerplate) para crear aplicaciones en la plataforma POS.
+POS Platform Boilerplate es una [plantilla](https://github.com/joinposter/pos-platform-boilerplate) para crear aplicaciones en la plataforma de [Poster](https://joinposter.com).
 
 Una aplicación en la plataforma POS se ejecuta en Javascript. Podemos desarrollar la aplicación en cualquier lenguaje que compile en JS (CoffeeScript, TypeScript). La aplicación se carga en el sistema en forma de un solo archivo JS (paquete) que se recopila mediante [webpack](https://webpack.js.org/).
 
